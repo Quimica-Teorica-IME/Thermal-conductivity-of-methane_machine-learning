@@ -1,0 +1,199 @@
+Number of matched data between NIST and Experimental: 2167
+Number of missing data between NIST and Experimental: 24
+Data size in liquid phase:
+	Total: 416
+	Inliers: 374
+	Outliers: 42Data size in vapor phase:
+	Total: 433
+	Inliers: 389
+	Outliers: 44Data size in supercritical phase:
+	Total: 1318
+	Inliers: 1186
+	Outliers: 132
+
+>>> LIQUID PHASE <<<
+
+Results from lazy predict:
+                                Adjusted R-Squared  R-Squared   RMSE  \
+Model                                                                 
+GradientBoostingRegressor                    0.99       0.99   3.92   
+ExtraTreesRegressor                          0.99       0.99   4.07   
+RandomForestRegressor                        0.98       0.99   4.29   
+BaggingRegressor                             0.98       0.98   4.52   
+XGBRegressor                                 0.98       0.98   5.51   
+HistGradientBoostingRegressor                0.97       0.98   5.57   
+LGBMRegressor                                0.97       0.97   6.12   
+DecisionTreeRegressor                        0.97       0.97   6.34   
+ExtraTreeRegressor                           0.97       0.97   6.36   
+GaussianProcessRegressor                     0.96       0.96   7.06   
+KNeighborsRegressor                          0.96       0.96   7.22   
+ElasticNetCV                                 0.95       0.95   7.73   
+Lasso                                        0.95       0.95   7.73   
+LassoLars                                    0.95       0.95   7.73   
+RANSACRegressor                              0.95       0.95   7.79   
+Ridge                                        0.95       0.95   7.84   
+LassoCV                                      0.95       0.95   7.85   
+BayesianRidge                                0.95       0.95   7.85   
+RidgeCV                                      0.95       0.95   7.86   
+Lars                                         0.95       0.95   7.86   
+LarsCV                                       0.95       0.95   7.86   
+TransformedTargetRegressor                   0.95       0.95   7.86   
+LassoLarsCV                                  0.95       0.95   7.86   
+LassoLarsIC                                  0.95       0.95   7.86   
+LinearRegression                             0.95       0.95   7.86   
+OrthogonalMatchingPursuitCV                  0.95       0.95   7.86   
+SGDRegressor                                 0.95       0.95   7.86   
+PassiveAggressiveRegressor                   0.95       0.95   7.88   
+HuberRegressor                               0.95       0.95   7.92   
+AdaBoostRegressor                            0.93       0.94   8.97   
+LinearSVR                                    0.93       0.93   9.50   
+PoissonRegressor                             0.89       0.89  11.62   
+ElasticNet                                   0.84       0.85  13.88   
+SVR                                          0.84       0.84  14.16   
+NuSVR                                        0.81       0.82  15.11   
+TweedieRegressor                             0.71       0.71  18.97   
+GammaRegressor                               0.69       0.70  19.54   
+OrthogonalMatchingPursuit                    0.63       0.64  21.24   
+DummyRegressor                              -0.11      -0.08  36.83   
+MLPRegressor                               -13.98     -13.57 135.55   
+KernelRidge                                -19.04     -18.50 156.81   
+
+                               Time Taken  
+Model                                      
+GradientBoostingRegressor            0.16  
+ExtraTreesRegressor                  0.13  
+RandomForestRegressor                0.20  
+BaggingRegressor                     0.03  
+XGBRegressor                         0.10  
+HistGradientBoostingRegressor        0.20  
+LGBMRegressor                        0.14  
+DecisionTreeRegressor                0.02  
+ExtraTreeRegressor                   0.01  
+GaussianProcessRegressor             0.03  
+KNeighborsRegressor                  0.01  
+ElasticNetCV                         0.06  
+Lasso                                0.03  
+LassoLars                            0.01  
+RANSACRegressor                      0.02  
+Ridge                                0.01  
+LassoCV                              0.06  
+BayesianRidge                        0.05  
+RidgeCV                              0.01  
+Lars                                 0.04  
+LarsCV                               0.04  
+TransformedTargetRegressor           0.01  
+LassoLarsCV                          0.01  
+LassoLarsIC                          0.02  
+LinearRegression                     0.01  
+OrthogonalMatchingPursuitCV          0.02  
+SGDRegressor                         0.01  
+PassiveAggressiveRegressor           0.01  
+HuberRegressor                       0.02  
+AdaBoostRegressor                    0.09  
+LinearSVR                            0.01  
+PoissonRegressor                     0.05  
+ElasticNet                           0.01  
+SVR                                  0.02  
+NuSVR                                0.02  
+TweedieRegressor                     0.01  
+GammaRegressor                       0.02  
+OrthogonalMatchingPursuit            0.01  
+DummyRegressor                       0.02  
+MLPRegressor                         0.36  
+KernelRidge                          0.02  .
+
+
+>>> VAPOR PHASE <<<
+
+Results from lazy predict:
+                                Adjusted R-Squared  R-Squared  RMSE  Time Taken
+Model                                                                         
+XGBRegressor                                 0.99       0.99  2.60        0.06
+BaggingRegressor                             0.70       0.71 18.94        0.04
+ExtraTreesRegressor                          0.54       0.55 23.58        0.12
+GaussianProcessRegressor                     0.50       0.51 24.63        0.03
+LGBMRegressor                                0.48       0.50 24.96        0.08
+HistGradientBoostingRegressor                0.47       0.48 25.31        0.17
+KNeighborsRegressor                          0.44       0.45 26.10        0.01
+RandomForestRegressor                        0.43       0.45 26.21        0.19
+GradientBoostingRegressor                    0.19       0.21 31.28        0.17
+ExtraTreeRegressor                           0.17       0.19 31.73        0.01
+AdaBoostRegressor                            0.16       0.19 31.76        0.11
+DecisionTreeRegressor                        0.08       0.10 33.38        0.01
+SGDRegressor                                 0.06       0.08 33.67        0.01
+LinearRegression                             0.06       0.08 33.67        0.01
+TransformedTargetRegressor                   0.06       0.08 33.67        0.01
+Lars                                         0.06       0.08 33.67        0.03
+Ridge                                        0.06       0.08 33.67        0.01
+RidgeCV                                      0.06       0.08 33.69        0.01
+OrthogonalMatchingPursuit                    0.06       0.08 33.72        0.02
+OrthogonalMatchingPursuitCV                  0.06       0.08 33.72        0.02
+ElasticNetCV                                 0.06       0.08 33.72        0.06
+BayesianRidge                                0.06       0.08 33.72        0.01
+LassoLarsIC                                  0.06       0.08 33.73        0.01
+LassoLars                                    0.06       0.08 33.75        0.01
+Lasso                                        0.06       0.08 33.75        0.03
+LassoCV                                      0.05       0.08 33.78        0.07
+LassoLarsCV                                  0.05       0.08 33.80        0.02
+LarsCV                                       0.05       0.08 33.80        0.04
+NuSVR                                        0.05       0.08 33.81        0.03
+SVR                                          0.05       0.08 33.82        0.02
+PoissonRegressor                             0.05       0.07 33.88        0.04
+ElasticNet                                   0.04       0.07 33.97        0.01
+GammaRegressor                               0.03       0.06 34.12        0.01
+HuberRegressor                               0.03       0.06 34.16        0.01
+RANSACRegressor                              0.03       0.06 34.17        0.02
+TweedieRegressor                             0.03       0.06 34.17        0.01
+LinearSVR                                    0.03       0.05 34.26        0.01
+PassiveAggressiveRegressor                   0.03       0.05 34.27        0.01
+MLPRegressor                                 0.02       0.05 34.39        0.32
+DummyRegressor                              -0.03      -0.00 35.24        0.01
+KernelRidge                                 -0.87      -0.82 47.46        0.02.
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+Results from lazy predict:
+                                Adjusted R-Squared  R-Squared  RMSE  Time Taken
+Model                                                                         
+ExtraTreesRegressor                          0.99       0.99  2.49        0.34
+ExtraTreeRegressor                           0.99       0.99  2.64        0.02
+RandomForestRegressor                        0.97       0.97  4.85        0.29
+LGBMRegressor                                0.97       0.97  4.94        0.06
+HistGradientBoostingRegressor                0.97       0.97  5.19        3.20
+KNeighborsRegressor                          0.97       0.97  5.23        0.01
+GradientBoostingRegressor                    0.97       0.97  5.31        0.26
+BaggingRegressor                             0.97       0.97  5.60        0.06
+XGBRegressor                                 0.93       0.93  7.89        0.10
+DecisionTreeRegressor                        0.92       0.92  8.32        0.02
+SVR                                          0.85       0.85 11.58        0.07
+NuSVR                                        0.85       0.85 11.75        0.09
+AdaBoostRegressor                            0.82       0.82 12.72        0.18
+TransformedTargetRegressor                   0.79       0.79 13.80        0.02
+LinearRegression                             0.79       0.79 13.80        0.01
+OrthogonalMatchingPursuitCV                  0.79       0.79 13.80        0.02
+Lars                                         0.79       0.79 13.80        0.03
+LarsCV                                       0.79       0.79 13.80        0.05
+LassoLarsCV                                  0.79       0.79 13.80        0.02
+LassoLarsIC                                  0.79       0.79 13.80        0.02
+BayesianRidge                                0.79       0.79 13.80        0.01
+LassoCV                                      0.79       0.79 13.80        0.07
+SGDRegressor                                 0.79       0.79 13.80        0.01
+Ridge                                        0.79       0.79 13.80        0.01
+RidgeCV                                      0.79       0.79 13.80        0.01
+RANSACRegressor                              0.79       0.79 13.80        0.02
+HuberRegressor                               0.79       0.79 13.82        0.02
+ElasticNetCV                                 0.79       0.79 13.87        0.12
+LinearSVR                                    0.79       0.79 13.93        0.01
+LassoLars                                    0.79       0.79 13.98        0.01
+Lasso                                        0.79       0.79 13.98        0.03
+PassiveAggressiveRegressor                   0.78       0.79 14.05        0.01
+PoissonRegressor                             0.76       0.76 14.77        0.02
+MLPRegressor                                 0.74       0.74 15.35        0.91
+ElasticNet                                   0.64       0.64 18.15        0.01
+OrthogonalMatchingPursuit                    0.58       0.58 19.63        0.01
+TweedieRegressor                             0.52       0.52 20.96        0.03
+GammaRegressor                               0.50       0.51 21.30        0.01
+DummyRegressor                              -0.01      -0.00 30.34        0.01
+GaussianProcessRegressor                    -1.25      -1.23 45.33        0.19
+KernelRidge                                 -6.50      -6.44 82.71        0.07.

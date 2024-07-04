@@ -1,0 +1,134 @@
+Number of matched data between NIST and Experimental: 2167
+Number of missing data between NIST and Experimental: 24
+
+>>> LIQUID PHASE <<<
+
+ > Train data <
+Metrics for liquid phase:
+MAPE: 12.0%
+MAE: 7.908295
+MSE: 224.111946
+RMSE: 14.970369
+R2: 0.865586
+
+ > Test data <
+Metrics for liquid phase:
+MAPE: 5.0%
+MAE: 7.633325
+MSE: 121.900721
+RMSE: 11.040866
+R2: 0.92444
+
+
+>>> VAPOR PHASE <<<
+
+ > Train data <
+Metrics for vapor phase:
+MAPE: 67.0%
+MAE: 9.447184
+MSE: 1457.663656
+RMSE: 38.179362
+R2: 0.06457
+
+ > Test data <
+Metrics for vapor phase:
+MAPE: 15.0%
+MAE: 4.724876
+MSE: 125.736055
+RMSE: 11.213209
+R2: 0.442129
+
+
+>>> SUPERCRITICAL PHASE <<<
+
+ > Train data <
+Metrics for supercritical phase:
+MAPE: 30.0%
+MAE: 20.188329
+MSE: 1099.572647
+RMSE: 33.159805
+R2: -0.086919
+
+ > Test data <
+Metrics for supercritical phase:
+MAPE: 27.0%
+MAE: 19.192652
+MSE: 903.345145
+RMSE: 30.055701
+R2: 0.009718
+
+
+Below metrics encompass all data.
+>>> Liquid <<<
+
+Metrics for liquid (NIST) phase:
+MAPE: 7.000000000000001%
+MAE: 4.3137
+MSE: 139.263091
+RMSE: 11.800978
+R2: 0.916407
+
+Metrics for liquid (Model) phase:
+MAPE: 10.0%
+MAE: 7.941856
+MSE: 205.008771
+RMSE: 14.318127
+R2: 0.876944
+>>> Vapor <<<
+
+Metrics for vapor (NIST) phase:
+MAPE: 39.0%
+MAE: 5.153323
+MSE: 1110.284118
+RMSE: 33.320926
+R2: 0.143672
+
+Metrics for vapor (Model) phase:
+MAPE: 55.00000000000001%
+MAE: 8.46994
+MSE: 1197.424464
+RMSE: 34.603822
+R2: 0.076463
+>>> Supercritical <<<
+
+Metrics for supercritical (NIST) phase:
+MAPE: 6.0%
+MAE: 3.141762
+MSE: 138.697512
+RMSE: 11.776991
+R2: 0.860208
+
+Metrics for supercritical (Model) phase:
+MAPE: 28.999999999999996%
+MAE: 20.188705
+MSE: 1129.1955
+RMSE: 33.603504
+R2: -0.13811
+
+
+Below metrics encompass all data.
+	Comparison NIST x Model
+>>> Liquid <<<
+
+Metrics for NIST x Model phase:
+MAPE: 6.0%
+MAE: 6.921369
+MSE: 97.444042
+RMSE: 9.871375
+R2: 0.937479
+>>> Vapor <<<
+
+Metrics for vapor (NIST) phase:
+MAPE: 13.0%
+MAE: 3.589131
+MSE: 43.232786
+RMSE: 6.575164
+R2: 0.742536
+>>> Supercritical <<<
+
+Metrics for supercritical (NIST) phase:
+MAPE: 26.0%
+MAE: 19.008231
+MSE: 1025.857703
+RMSE: 32.029013
+R2: -0.108786

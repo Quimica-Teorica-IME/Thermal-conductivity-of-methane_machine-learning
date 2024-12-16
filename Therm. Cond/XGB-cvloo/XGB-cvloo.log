@@ -1,0 +1,46 @@
+Number of matched data between NIST and Experimental: 2167
+Number of missing data between NIST and Experimental: 24
+
+>>> LIQUID PHASE <<<
+
+Best Hyperparameters for liquid state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 100, 'random_state': 42, 'subsample': 0.6}.
+
+ > Train data <
+Metrics for liquid phase:
+MAPE: 9.0%
+MAE: 5.623089
+MSE: 128.194615
+RMSE: 11.322306
+R2: 0.923114
+
+ > Test data <
+Metrics for liquid phase:
+MAPE: 4.0%
+MAE: 6.977806
+MSE: 123.451946
+RMSE: 11.110893
+R2: 0.923479
+
+
+>>> VAPOR PHASE <<<
+
+Best Hyperparameters for vapor state for XGB: {'colsample_bytree': 0.6, 'learning_rate': 0.1, 'max_depth': 4, 'min_child_weight': 3, 'n_estimators': 50, 'random_state': 42, 'subsample': 0.6}.
+
+ > Train data <
+Metrics for vapor phase:
+MAPE: 55.00000000000001%
+MAE: 7.754453
+MSE: 521.024038
+RMSE: 22.825951
+R2: 0.665642
+
+ > Test data <
+Metrics for vapor phase:
+MAPE: 15.0%
+MAE: 4.55475
+MSE: 74.083047
+RMSE: 8.607151
+R2: 0.671306
+
+
+>>> SUPERCRITICAL PHASE <<<
